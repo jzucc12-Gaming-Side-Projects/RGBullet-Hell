@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6631377651470757778
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7548160157331789203, guid: cf6e6530507f55f42bab876fd1ce3c0b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3cdbbe187a642c942b33b6cf44df1b2f, type: 3}
+    - target: {fileID: 7548160157331789203, guid: cf6e6530507f55f42bab876fd1ce3c0b, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5636296
+      objectReference: {fileID: 0}
+    - target: {fileID: 7548160157331789203, guid: cf6e6530507f55f42bab876fd1ce3c0b, type: 3}
+      propertyPath: m_Color.r
+      value: 0.41960788
+      objectReference: {fileID: 0}
+    - target: {fileID: 7548160157331789212, guid: cf6e6530507f55f42bab876fd1ce3c0b, type: 3}
+      propertyPath: myShape
+      value: 
+      objectReference: {fileID: 11400000, guid: 3aa96ea6336f2eb47981ba8b85e59d03, type: 2}
+    - target: {fileID: 7548160157331789213, guid: cf6e6530507f55f42bab876fd1ce3c0b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7548160157331789213, guid: cf6e6530507f55f42bab876fd1ce3c0b, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7548160157331789213, guid: cf6e6530507f55f42bab876fd1ce3c0b, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7548160157331789213, guid: cf6e6530507f55f42bab876fd1ce3c0b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7548160157331789213, guid: cf6e6530507f55f42bab876fd1ce3c0b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7548160157331789213, guid: cf6e6530507f55f42bab876fd1ce3c0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7548160157331789213, guid: cf6e6530507f55f42bab876fd1ce3c0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7548160157331789213, guid: cf6e6530507f55f42bab876fd1ce3c0b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7548160157331789214, guid: cf6e6530507f55f42bab876fd1ce3c0b, type: 3}
+      propertyPath: m_Name
+      value: Ammo UI
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cf6e6530507f55f42bab876fd1ce3c0b, type: 3}

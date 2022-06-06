@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8572820916835195175
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8572820916835195172}
+  - component: {fileID: 8572820916835195173}
+  - component: {fileID: 8572820916835195170}
+  m_Layer: 0
+  m_Name: Enemy Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8572820916835195172
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8572820916835195175}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8572820916835195173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8572820916835195175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60afc20e2d27aaf4f8e73ac7b1819510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnEntries:
+  - enemyPrefab: {fileID: 8291791234888305119, guid: 29ff6cc793d8ed14d81e7c1cd94eda50, type: 3}
+    maxCount: 2
+  - enemyPrefab: {fileID: 7267708347627918999, guid: 61817ab22c534784ba3f0018c2b848ca, type: 3}
+    maxCount: 2
+  - enemyPrefab: {fileID: 7804847962751464144, guid: 514c9d9c622c23848b5b271d2fa7e411, type: 3}
+    maxCount: 2
+  amountToSpawn: 4
+  maxEnabledAtATime: 2
+  enableDelay: 6
+--- !u!114 &8572820916835195170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8572820916835195175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 324bb8980be35fe4686bbc0c4e0fda18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  horizontalAlignment: 1
+  verticalAlignment: 1
+  offset: {x: 0, y: 0}

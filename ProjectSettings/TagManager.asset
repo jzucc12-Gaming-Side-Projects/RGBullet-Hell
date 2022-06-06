@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Sound Holder
+  - Transition
+  - Enemy Death VFX
+  - Enemy Death SFX
+  - Background Music
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Projectile Shredder
+  - Player Bounds
+  - Player
+  - Projectile
+  - Enemy
+  - Player Projectile
+  - Enemy Projectile
+  - Screen Boundary
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Effects
+    uniqueID: 1300719569
+    locked: 0
+  - name: Projectiles
+    uniqueID: 1703536157
+    locked: 0
+  - name: Player
+    uniqueID: 1063260483
+    locked: 0
+  - name: Enemy
+    uniqueID: 2405085221
+    locked: 0

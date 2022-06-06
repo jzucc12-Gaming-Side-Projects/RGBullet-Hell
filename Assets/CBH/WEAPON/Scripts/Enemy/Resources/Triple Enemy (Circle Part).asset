@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37d9d9982337ee74188d3c7d2b13f290, type: 3}
+  m_Name: Triple Enemy (Circle Part)
+  m_EditorClassIdentifier: 
+  myShape: {fileID: 11400000, guid: 8ccea964c89a35e49accc4ca51692fbb, type: 2}
+  projectilePrefab: {fileID: 2423791667376285021, guid: 40413e3774e51334b8b5e0e3069efb3f, type: 3}
+  myShotType: {fileID: 11400000, guid: f6a822bf0793a3f44b4a26662dc23cbb, type: 2}
+  projectileMovementType: {fileID: 0}
+  projectileTarget: 0
+  shotsPerFire: 1
+  shotDelayTime: 0
+  maxProjectiles: 30

@@ -1,0 +1,85 @@
+{
+    "name": "CutsceneInputs",
+    "maps": [
+        {
+            "name": "Map",
+            "id": "140ee9c0-27d1-4982-ab6c-11f352a3bcf9",
+            "actions": [
+                {
+                    "name": "Skip Scene",
+                    "type": "Button",
+                    "id": "d7aa7f9f-a2c9-446e-bed5-19154e30f580",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Hold(duration=2)"
+                },
+                {
+                    "name": "Next Line",
+                    "type": "Button",
+                    "id": "ed1392c8-96f2-4f8b-8513-8cbef35d8d0c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "83b88229-a5da-4bb3-b158-5223f3721f5e",
+                    "path": "<Keyboard>/b",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Skip Scene",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9c63e3d5-15c1-4b42-bad9-dbd5dda7fe50",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Skip Scene",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "cbd1c7ab-05ef-4f3b-9153-bac4de81330a",
+                    "path": "<Keyboard>/anyKey",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next Line",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f202d889-8b6c-48a3-acb5-b02ae9bc1a84",
+                    "path": "<Gamepad>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next Line",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4b217571-8ea3-46f0-80b9-6b8989e81018",
+                    "path": "<Gamepad>/buttonEast",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Next Line",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8282342388628644139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7420932498798984468}
+  - component: {fileID: 4789597745103573222}
+  - component: {fileID: 6034452586454165031}
+  - component: {fileID: 1656945383753007783}
+  m_Layer: 0
+  m_Name: PlayerWeapon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7420932498798984468
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8282342388628644139}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.7, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4789597745103573222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8282342388628644139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35e83e66babf808479e9e5213f1cabbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6034452586454165031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8282342388628644139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8472777c830653549967437ac1ab211a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myWeapons:
+  - {fileID: 11400000, guid: afb158d63c241b14691ff2749c646ba6, type: 2}
+  - {fileID: 11400000, guid: ee5d83de6f49dd8468c9ba45d65dc2e0, type: 2}
+  - {fileID: 11400000, guid: c8f825c743671244bb85ee5b9b83f266, type: 2}
+  activeIndex: 0
+--- !u!114 &1656945383753007783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8282342388628644139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb74e2e20294fe14dadaf19bc3e2d818, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mySounds:
+  - title: Fire
+    clip: {fileID: 0}
+    myType: 2
+    source: {fileID: 0}
+    fader: {fileID: 0}
+    volume: 0.35
+    pitch: 1
+    isBackwards: 0
+    loop: 0
+    playOnStart: 0
+  - title: Reload
+    clip: {fileID: 0}
+    myType: 2
+    source: {fileID: 0}
+    fader: {fileID: 0}
+    volume: 0.7
+    pitch: 1
+    isBackwards: 0
+    loop: 0
+    playOnStart: 0
+  - title: Ammo Pickup
+    clip: {fileID: 8300000, guid: 0bf1b11caaf97124bb314473e37187ea, type: 3}
+    myType: 2
+    source: {fileID: 0}
+    fader: {fileID: 0}
+    volume: 0.7
+    pitch: 1
+    isBackwards: 0
+    loop: 0
+    playOnStart: 0
+  - title: Change Weapon
+    clip: {fileID: 8300000, guid: 03cc5a1b1ca967741939b695758b5aa6, type: 3}
+    myType: 2
+    source: {fileID: 0}
+    fader: {fileID: 0}
+    volume: 0.8
+    pitch: 1
+    isBackwards: 0
+    loop: 0
+    playOnStart: 0
